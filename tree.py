@@ -8,7 +8,7 @@ dataset  = loadtxt('pima-indians-diabetes.txt', delimiter = ",")
 print(dataset)
 print(type(dataset))
 print(dataset.shape)
-
+#THE COMMENT
 X = dataset[:, 0:8]
 Y = dataset[:, 8]
 
